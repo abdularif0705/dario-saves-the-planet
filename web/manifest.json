@@ -1,6 +1,6 @@
 {
-    "name": "pixel_adventure",
-    "short_name": "pixel_adventure",
+    "name": "planet_defender_quest",
+    "short_name": "planet_defender_quest",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
