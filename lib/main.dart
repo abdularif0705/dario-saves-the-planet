@@ -2,15 +2,15 @@ import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:pixel_adventure/pixel_adventure.dart';
+import 'package:planet_defender_quest/planet_defender_quest.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Flame.device.fullScreen();
   await Flame.device.setLandscape();
 
-  PixelAdventure game = PixelAdventure();
+  PlanetDefenderQuest game = PlanetDefenderQuest();
   runApp(
-    GameWidget(game: kDebugMode ? PixelAdventure() : game),
+    GameWidget(game: kDebugMode ? PlanetDefenderQuest() : game),
   );
 }

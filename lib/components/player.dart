@@ -4,14 +4,14 @@ import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame_audio/flame_audio.dart';
 import 'package:flutter/services.dart';
-import 'package:pixel_adventure/components/checkpoint.dart';
-import 'package:pixel_adventure/components/chicken.dart';
-import 'package:pixel_adventure/components/collision_block.dart';
-import 'package:pixel_adventure/components/custom_hitbox.dart';
-import 'package:pixel_adventure/components/fruit.dart';
-import 'package:pixel_adventure/components/saw.dart';
-import 'package:pixel_adventure/components/utils.dart';
-import 'package:pixel_adventure/pixel_adventure.dart';
+import 'package:planet_defender_quest/components/checkpoint.dart';
+import 'package:planet_defender_quest/components/chicken.dart';
+import 'package:planet_defender_quest/components/collision_block.dart';
+import 'package:planet_defender_quest/components/custom_hitbox.dart';
+import 'package:planet_defender_quest/components/fruit.dart';
+import 'package:planet_defender_quest/components/saw.dart';
+import 'package:planet_defender_quest/components/utils.dart';
+import 'package:planet_defender_quest/planet_defender_quest.dart';
 
 enum PlayerState {
   idle,
@@ -24,7 +24,7 @@ enum PlayerState {
 }
 
 class Player extends SpriteAnimationGroupComponent
-    with HasGameRef<PixelAdventure>, KeyboardHandler, CollisionCallbacks {
+    with HasGameRef<PlanetDefenderQuest>, KeyboardHandler, CollisionCallbacks {
   String character;
   Player({
     position,

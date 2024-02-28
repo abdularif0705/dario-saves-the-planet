@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame_tiled/flame_tiled.dart';
-import 'package:pixel_adventure/components/background_tile.dart';
-import 'package:pixel_adventure/components/checkpoint.dart';
-import 'package:pixel_adventure/components/chicken.dart';
-import 'package:pixel_adventure/components/collision_block.dart';
-import 'package:pixel_adventure/components/fruit.dart';
-import 'package:pixel_adventure/components/player.dart';
-import 'package:pixel_adventure/components/saw.dart';
-import 'package:pixel_adventure/pixel_adventure.dart';
+import 'package:planet_defender_quest/components/background_tile.dart';
+import 'package:planet_defender_quest/components/checkpoint.dart';
+import 'package:planet_defender_quest/components/chicken.dart';
+import 'package:planet_defender_quest/components/collision_block.dart';
+import 'package:planet_defender_quest/components/fruit.dart';
+import 'package:planet_defender_quest/components/player.dart';
+import 'package:planet_defender_quest/components/saw.dart';
+import 'package:planet_defender_quest/planet_defender_quest.dart';
 
-class Level extends World with HasGameRef<PixelAdventure> {
+class Level extends World with HasGameRef<PlanetDefenderQuest> {
   final String levelName;
   final Player player;
   Level({required this.levelName, required this.player});

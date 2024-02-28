@@ -5,11 +5,11 @@ import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flame/input.dart';
 import 'package:flutter/painting.dart';
-import 'package:pixel_adventure/components/jump_button.dart';
-import 'package:pixel_adventure/components/player.dart';
-import 'package:pixel_adventure/components/level.dart';
+import 'package:planet_defender_quest/components/jump_button.dart';
+import 'package:planet_defender_quest/components/player.dart';
+import 'package:planet_defender_quest/components/level.dart';
 
-class PixelAdventure extends FlameGame
+class PlanetDefenderQuest extends FlameGame
     with
         HasKeyboardHandlerComponents,
         DragCallbacks,

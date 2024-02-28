@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:pixel_adventure/components/player.dart';
-import 'package:pixel_adventure/pixel_adventure.dart';
+import 'package:planet_defender_quest/components/player.dart';
+import 'package:planet_defender_quest/planet_defender_quest.dart';
 
 class Checkpoint extends SpriteAnimationComponent
-    with HasGameRef<PixelAdventure>, CollisionCallbacks {
+    with HasGameRef<PlanetDefenderQuest>, CollisionCallbacks {
   Checkpoint({
     position,
     size,

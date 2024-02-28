@@ -4,13 +4,13 @@ import 'dart:ui';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame_audio/flame_audio.dart';
-import 'package:pixel_adventure/components/player.dart';
-import 'package:pixel_adventure/pixel_adventure.dart';
+import 'package:planet_defender_quest/components/player.dart';
+import 'package:planet_defender_quest/planet_defender_quest.dart';
 
 enum State { idle, run, hit }
 
 class Chicken extends SpriteAnimationGroupComponent
-    with HasGameRef<PixelAdventure>, CollisionCallbacks {
+    with HasGameRef<PlanetDefenderQuest>, CollisionCallbacks {
   final double offNeg;
   final double offPos;
   Chicken({
