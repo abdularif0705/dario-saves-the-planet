@@ -18,7 +18,7 @@ class PlanetDefenderQuest extends FlameGame
   @override
   Color backgroundColor() => const Color(0xFF211F30);
   late CameraComponent cam;
-  Player player = Player(character: 'Mask Dude');
+  Player player = Player(character: 'Ninja Frog');
   late JoystickComponent joystick;
   bool showControls = false;
   bool playSounds = true;
