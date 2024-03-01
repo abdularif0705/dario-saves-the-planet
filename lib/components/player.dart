@@ -8,7 +8,7 @@ import 'package:planet_defender_quest/components/checkpoint.dart';
 import 'package:planet_defender_quest/components/chicken.dart';
 import 'package:planet_defender_quest/components/collision_block.dart';
 import 'package:planet_defender_quest/components/custom_hitbox.dart';
-import 'package:planet_defender_quest/components/fruit.dart';
+import 'package:planet_defender_quest/components/trash.dart';
 import 'package:planet_defender_quest/components/saw.dart';
 import 'package:planet_defender_quest/components/utils.dart';
 import 'package:planet_defender_quest/planet_defender_quest.dart';
@@ -114,7 +114,7 @@ class Player extends SpriteAnimationGroupComponent
   void onCollisionStart(
       Set<Vector2> intersectionPoints, PositionComponent other) {
     if (!reachedCheckpoint) {
-      if (other is Fruit) other.collidedWithPlayer();
+      if (other is Trash) other.collidedWithPlayer();
       if (other is Saw) _respawn();
       if (other is Chicken) other.collidedWithPlayer();
       if (other is Checkpoint) _reachedCheckpoint();
