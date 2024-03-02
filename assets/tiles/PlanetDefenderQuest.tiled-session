@@ -8,8 +8,8 @@
             "scale": 0.85796875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 399.7814605718448,
-                "y": 234.27426698233472
+                "x": 397.45037333818976,
+                "y": 233.10872336550722
             }
         },
         "Level-01 - Copy.tmx": {
@@ -22,10 +22,10 @@
         },
         "Level-01.tmx": {
             "scale": 0.85796875,
-            "selectedLayer": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 266.90948825350574,
-                "y": 277.3993808049536
+                "x": 268.07503187033325,
+                "y": 189.98360954288836
             }
         },
         "Level-02.tmx": {
@@ -41,6 +41,7 @@
             "scaleInEditor": 1
         }
     },
+    "last.imagePath": "K:/Users/abdul/GitKraken/dario-saves-the-planet/assets/images/Terrain",
     "openFiles": [
         "Pixel Adventure.tsx",
         "Level-.tmx"
@@ -51,5 +52,10 @@
         "Level-.tmx",
         "Level-01.tmx",
         "Level-02.tmx"
-    ]
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 64,
+        "width": 64
+    }
 }
