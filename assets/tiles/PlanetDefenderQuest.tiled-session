@@ -5,27 +5,31 @@
     ],
     "fileStates": {
         "Level-.tmx": {
-            "scale": 0.85796875,
+            "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 397.45037333818976,
-                "y": 233.10872336550722
+                "x": 146.66666666666669,
+                "y": 253.33333333333331
             }
         },
         "Level-01 - Copy.tmx": {
-            "scale": 0.547734375,
+            "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 469.20553416060477,
-                "y": 182.5702467550991
+                "x": 293,
+                "y": 195
             }
         },
         "Level-01.tmx": {
-            "scale": 0.85796875,
-            "selectedLayer": 1,
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 268.07503187033325,
-                "y": 189.98360954288836
+                "x": 159.33333333333331,
+                "y": 164.66666666666666
             }
         },
         "Level-02.tmx": {
@@ -35,6 +39,14 @@
                 "x": 197.55964305226735,
                 "y": 182.9903478419231
             }
+        },
+        "Pirate Bomb Tile-Sets (16x16).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Pirate Bomb Tile-Sets (64-64).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Pixel Adventure.tsx": {
             "scaleInDock": 1,
@@ -48,6 +60,8 @@
     ],
     "project": "PlanetDefenderQuest.tiled-project",
     "recentFiles": [
+        "Pirate Bomb Tile-Sets (64-64).tsx",
+        "Pirate Bomb Tile-Sets (16x16).tsx",
         "Pixel Adventure.tsx",
         "Level-.tmx",
         "Level-01.tmx",
@@ -55,7 +69,7 @@
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 64,
-        "width": 64
+        "height": 16,
+        "width": 16
     }
 }
