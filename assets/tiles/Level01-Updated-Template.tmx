@@ -35,18 +35,18 @@
  </layer>
  <objectgroup id="2" name="Spawnpoints">
   <object id="4" name="Player" type="Player" x="128" y="224" width="32" height="32"/>
-  <object id="21" name="Bananas" type="Fruit" x="80" y="80" width="32" height="32"/>
-  <object id="22" name="Orange" type="Fruit" x="80" y="128" width="32" height="32"/>
-  <object id="23" name="Apple" type="Fruit" x="80" y="176" width="32" height="32"/>
-  <object id="24" name="Cherries" type="Fruit" x="192" y="128" width="32" height="32"/>
-  <object id="25" name="Cherries" type="Fruit" x="224" y="128" width="32" height="32"/>
-  <object id="26" name="Cherries" type="Fruit" x="208" y="96" width="32" height="32"/>
-  <object id="27" name="Cherries" type="Fruit" x="336" y="160" width="32" height="32"/>
-  <object id="28" name="Cherries" type="Fruit" x="368" y="160" width="32" height="32"/>
-  <object id="29" name="Cherries" type="Fruit" x="352" y="128" width="32" height="32"/>
-  <object id="30" name="Kiwi" type="Fruit" x="480" y="128" width="32" height="32"/>
-  <object id="31" name="Kiwi" type="Fruit" x="480" y="176" width="32" height="32"/>
-  <object id="34" type="Saw" x="288" y="128" width="32" height="32">
+  <object id="21" name="alcoholbottle" type="Trash" x="80" y="80" width="32" height="32"/>
+  <object id="22" name="trashbag1" type="Trash" x="80" y="128" width="32" height="32"/>
+  <object id="23" name="rustysheet" type="Trash" x="80" y="176" width="32" height="32"/>
+  <object id="24" name="trashbag2" type="Trash" x="192" y="128" width="32" height="32"/>
+  <object id="25" name="trashbag2" type="Trash" x="224" y="128" width="32" height="32"/>
+  <object id="26" name="trashbag2" type="Trash" x="208" y="96" width="32" height="32"/>
+  <object id="27" name="plasticbottle" type="Trash" x="336" y="160" width="32" height="32"/>
+  <object id="28" name="plasticbottle" type="Trash" x="368" y="160" width="32" height="32"/>
+  <object id="29" name="plasticbottle" type="Trash" x="352" y="128" width="32" height="32"/>
+  <object id="30" name="cardboardbox" type="Trash" x="480" y="128" width="32" height="32"/>
+  <object id="31" name="alcoholbottle" type="Trash" x="480" y="176" width="32" height="32"/>
+  <object id="34" name="Saw_on" type="Saw" x="288" y="128" width="32" height="32">
    <properties>
     <property name="isVertical" type="bool" value="true"/>
     <property name="offNeg" type="float" value="4"/>

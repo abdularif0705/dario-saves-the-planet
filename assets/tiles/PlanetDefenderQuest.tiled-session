@@ -1,9 +1,17 @@
 {
-    "activeFile": "Level-.tmx",
+    "activeFile": "Level01-Updated-Template.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "Kings and Pigs Decorations (16x16).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Kings and Pigs Terrain (16x16).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "Level-.tmx": {
             "scale": 1.5,
             "selectedLayer": 0,
@@ -16,29 +24,48 @@
             "scale": 1,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 293,
-                "y": 195
+                "x": 291,
+                "y": 193
             }
         },
         "Level-01.tmx": {
             "expandedObjectLayers": [
-                2,
-                3
+                3,
+                2
             ],
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 159.33333333333331,
-                "y": 164.66666666666666
+                "x": 158,
+                "y": 163.33333333333331
             }
         },
         "Level-02.tmx": {
             "scale": 0.85796875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 197.55964305226735,
-                "y": 182.9903478419231
+                "x": 196.97687124385357,
+                "y": 181.82480422509565
             }
+        },
+        "Level01-Updated-Template.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.30328125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 303.0811653278984,
+                "y": 143.48399472485312
+            }
+        },
+        "Palm Bottom and Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Palm Tree Island.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         },
         "Pirate Bomb Tile-Sets (16x16).tsx": {
             "scaleInDock": 1,
@@ -51,21 +78,34 @@
         "Pixel Adventure.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "Terrain and Back Wall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Treasure Hunters Terrain (16x16).tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
     "last.imagePath": "K:/Users/abdul/GitKraken/dario-saves-the-planet/assets/images/Terrain",
     "openFiles": [
-        "Pixel Adventure.tsx",
-        "Level-.tmx"
+        "Level01-Updated-Template.tmx"
     ],
     "project": "PlanetDefenderQuest.tiled-project",
     "recentFiles": [
-        "Pirate Bomb Tile-Sets (64-64).tsx",
+        "Level01-Updated-Template.tmx",
+        "Kings and Pigs Terrain (16x16).tsx",
+        "Kings and Pigs Decorations (16x16).tsx",
+        "Palm Tree Island.tsx",
         "Pirate Bomb Tile-Sets (16x16).tsx",
-        "Pixel Adventure.tsx",
-        "Level-.tmx",
+        "Level-02.tmx",
         "Level-01.tmx",
-        "Level-02.tmx"
+        "Level-01 - Copy.tmx",
+        "Pixel Adventure.tsx",
+        "Palm Bottom and Grass.tsx",
+        "Terrain and Back Wall.tsx",
+        "Treasure Hunters Terrain (16x16).tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
