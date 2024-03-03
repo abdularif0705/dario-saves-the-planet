@@ -6,7 +6,7 @@ import 'package:planet_defender_quest/components/background_tile.dart';
 import 'package:planet_defender_quest/components/checkpoint.dart';
 import 'package:planet_defender_quest/components/chicken.dart';
 import 'package:planet_defender_quest/components/collision_block.dart';
-import 'package:planet_defender_quest/components/fruit.dart';
+import 'package:planet_defender_quest/components/trash.dart';
 import 'package:planet_defender_quest/components/player.dart';
 import 'package:planet_defender_quest/components/saw.dart';
 import 'package:planet_defender_quest/planet_defender_quest.dart';
@@ -56,13 +56,13 @@ class Level extends World with HasGameRef<PlanetDefenderQuest> {
             player.scale.x = 1;
             add(player);
             break;
-          case 'Fruit':
-            final fruit = Fruit(
-              fruit: spawnPoint.name,
+          case 'Trash':
+            final trash = Trash(
+              trash: spawnPoint.name,
               position: Vector2(spawnPoint.x, spawnPoint.y),
               size: Vector2(spawnPoint.width, spawnPoint.height),
             );
-            add(fruit);
+            add(trash);
             break;
           case 'Saw':
             final isVertical = spawnPoint.properties.getValue('isVertical');
